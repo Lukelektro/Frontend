@@ -1,7 +1,7 @@
 // para cambiar la urls en base en que enviroment
 const configs = {
   development: 'http://localhost:5000',
-  production: 'https://backend-production-51bf.up.railway.app' // NO CAMBIAR
+  production: 'https://backend-production-51bf.up.railway.app' // NO CAMBIAR LOL
 };
 
 
