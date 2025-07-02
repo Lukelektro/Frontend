@@ -1,8 +1,9 @@
 // para cambiar la urls en base en que enviroment
 const configs = {
   development: 'http://localhost:5000',
-  production: 'https://ferremas-app-env-2.eba-dqgxevfn.us-east-1.elasticbeanstalk.com'
+  production: 'https://backend-production-51bf.up.railway.app' // NO CAMBIAR
 };
+
 
 // Asegúrate de que NODE_ENV esté correctamente establecido durante el build
 console.log('NODE_ENV:', process.env.NODE_ENV);
