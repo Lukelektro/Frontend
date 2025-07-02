@@ -1,0 +1,108 @@
+/* Fondo general */
+.contact-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #dbeeff, #c0e0ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Tarjeta del formulario */
+.contact-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Títulos */
+.contact-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.contact-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Formulario */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 40px;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  width: 100%;
+  transition: border 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+/* Botón */
+.contact-form button {
+  background-color: #001f4d;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #004080;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+/* Pie */
+.contact-footer {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #444;
+}
